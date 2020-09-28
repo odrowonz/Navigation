@@ -13,6 +13,11 @@
 		DB33189E2520B69700C15CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB33189C2520B69700C15CE8 /* Main.storyboard */; };
 		DB3318A02520B69900C15CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB33189F2520B69900C15CE8 /* Assets.xcassets */; };
 		DB3318A32520B69900C15CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3318A12520B69900C15CE8 /* LaunchScreen.storyboard */; };
+		DB3318AC2520CB9F00C15CE8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3318AB2520CB9F00C15CE8 /* FeedViewController.swift */; };
+		DB3318AF2520CBF800C15CE8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3318AE2520CBF800C15CE8 /* ProfileViewController.swift */; };
+		DB3318B22520CC7E00C15CE8 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3318B12520CC7E00C15CE8 /* PostViewController.swift */; };
+		DB3318B52520D64C00C15CE8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3318B42520D64C00C15CE8 /* Post.swift */; };
+		DB3318B92520EABA00C15CE8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3318B82520EABA00C15CE8 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		DB33189F2520B69900C15CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3318A22520B69900C15CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB3318A42520B69900C15CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3318AB2520CB9F00C15CE8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DB3318AE2520CBF800C15CE8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DB3318B12520CC7E00C15CE8 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		DB3318B42520D64C00C15CE8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DB3318B82520EABA00C15CE8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				DB3318982520B69700C15CE8 /* SceneDelegate.swift */,
 				DB33189A2520B69700C15CE8 /* ViewController.swift */,
 				DB33189C2520B69700C15CE8 /* Main.storyboard */,
+				DB3318B82520EABA00C15CE8 /* InfoViewController.swift */,
+				DB3318B42520D64C00C15CE8 /* Post.swift */,
+				DB3318B12520CC7E00C15CE8 /* PostViewController.swift */,
+				DB3318AE2520CBF800C15CE8 /* ProfileViewController.swift */,
+				DB3318AB2520CB9F00C15CE8 /* FeedViewController.swift */,
 				DB33189F2520B69900C15CE8 /* Assets.xcassets */,
 				DB3318A12520B69900C15CE8 /* LaunchScreen.storyboard */,
 				DB3318A42520B69900C15CE8 /* Info.plist */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3318B22520CC7E00C15CE8 /* PostViewController.swift in Sources */,
 				DB33189B2520B69700C15CE8 /* ViewController.swift in Sources */,
 				DB3318972520B69700C15CE8 /* AppDelegate.swift in Sources */,
+				DB3318AF2520CBF800C15CE8 /* ProfileViewController.swift in Sources */,
+				DB3318AC2520CB9F00C15CE8 /* FeedViewController.swift in Sources */,
+				DB3318B52520D64C00C15CE8 /* Post.swift in Sources */,
+				DB3318B92520EABA00C15CE8 /* InfoViewController.swift in Sources */,
 				DB3318992520B69700C15CE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreyantipov.Navigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreyantipov.Navigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
